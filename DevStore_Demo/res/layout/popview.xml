@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:paddingBottom="25dip">   
+<ImageView     
+    android:id="@+id/image"  
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"    
+    android:src="@drawable/pop" ></ImageView>
+<TextView
+	android:id="@+id/text"
+	android:textColor="#DD0000"
+	android:text="text"
+	android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    ></TextView>
+</FrameLayout>  
